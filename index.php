@@ -1,4 +1,8 @@
 <?php
+/**
+    Developer: Dr. Marbel
+    Start Date: 11.06.24
+ */
 
 // Get the current time
 $currentTime = date("H:i:s");
@@ -10,6 +14,9 @@ $currentTime = date("H:i:s");
         <title>Real-time Clock</title>
     </head>
     <body>
+        <div id="welcome">
+            
+        </div>
         <div id="clock"></div>
 
         <script>
